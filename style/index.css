@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    background: #220d2e;
+    overflow: hidden;
+}
+.main {
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+    height: 5vh;
+    text-align: center;
+}
+
+.footer .title {
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer .title a {
+    text-decoration: none;
+    color: #5a8516;
+}
+.circle {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    border: 1px solid #6b6263;
+    position: absolute;
+    top: -40px;
+    left: -40px;
+    background: linear-gradient(#ff1e00, #3d0349);
+}
